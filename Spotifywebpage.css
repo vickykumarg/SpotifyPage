@@ -1,0 +1,250 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+}
+.main{
+    display:flex;
+    height: 100vh;
+
+}
+.sidebar{
+    background-color:black;
+    width: 360px;
+    border-radius: 1rem;
+
+}
+.main-content{
+    background-color:#121212;
+    flex:1;
+    overflow: auto;
+    border-radius: 1rem;
+
+}
+.music-player{
+    background-color:black;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:72px;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding:0.5rem 0.75rem;
+    margin:0.5rem
+}
+.nav-option{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav-option i{
+    font-size: 1.25rem;
+
+}
+.nav-option a{
+    font-size:1rem;
+    margin: 0.5rem 0.75rem;
+}
+.library{
+    background-color: #121212;
+    height: 100%;
+    margin:0.5rem;
+    border-radius: 1rem;
+    padding:0.5rem 0.75rem;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lib-options img{ 
+    width: 1.25rem;
+    height: 1.25rem;
+}
+.icons{
+    font-size: 1.25rem;
+
+}
+.icons i{
+    margin:1rem;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    height: 8rem;
+    background-color:#232323;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0.75rem;
+    margin-top: 0.5rem;
+}
+.box-page1{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0 0.75rem;
+}
+.box-page2{
+    font-size:0.8rem;
+    font-weight: 700;
+    padding: 0.5rem 0.75rem;
+}
+.badges{
+    height: 2rem;
+    width:8rem;
+    border:none;
+    border-radius: 2rem;
+    margin-left: 0.75rem;
+    margin: 1rem;
+}
+.sticky-nav{
+    position:sticky;
+    top:0;
+    background-color:#121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+}
+.sticky-nav-img{
+    margin: 0.75rem;
+    margin-left: 2rem;
+}
+.sticky-nav-icon{
+    margin-right:0.75rem;
+}
+.icon {
+    background-color: black;
+    color: white;
+}
+.icon i{
+    margin-right: 0.5rem;
+}
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
+@media(max-width:620px)
+{
+    .user{
+        display: none;
+    }
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #232323;
+    width: 170px;
+    margin-left: 0.75rem;
+    margin-bottom:  0.75rem;
+    border-radius: 0.75rem;
+}
+.card img{
+    width:150px;
+    border-radius: 0.75rem;
+    padding: 0.5rem
+}
+.card-title{
+    font-weight: 600;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: 0.5;
+    padding-left: 0.5rem;
+}
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.line{
+    width: 90%;
+    height: 50%;
+    border-top:1px solid white;
+    opacity: 0.4;
+}
+.middle-icons {
+    margin:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-icons img{
+    height:20px;
+    width:20px;
+    margin: 0.5rem;
+    opacity: 0.5;
+}
+.play:hover{
+    height:25px;
+    width: 25px;
+    transition: 1s;
+    opacity: 0.8;
+}
+.footer-1{
+    width:200px;
+    height:10px;
+
+}
+.line-1{
+    width:400px;
+    height: 10px;
+    border-top: 3px solid white;
+    border-radius: 0.1rem;
+    position:absolute;
+    top:60px;
+    right: 540px;
+    opacity:0.4;
+}
+.right-icons{
+    height:72px;
+    position:absolute;
+    top:20px;
+    left:1000px;
+    
+}
+.right-icons i{
+    opacity:0.5;
+
+    margin: 0.5rem;
+}
+input{
+    opacity: 0.4;
+}
+input:hover{
+    range: var(100);
+}
+.music:hover{
+    width:30px;
+    opacity: 0.8;
+}
+
+
+
